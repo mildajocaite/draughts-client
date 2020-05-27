@@ -35,7 +35,7 @@ export const goToNextStep = () => (dispatch: Dispatch) => {
             }
             break;
         case 1:
-            if (rootState.task.solution.length == 0) {
+            if (rootState.task.solution.length === 0) {
                 openNotification("error",
                     "KLAIDA",
                     `Sprendimas negali būti tuščias. Pridėkite sprendimą.`

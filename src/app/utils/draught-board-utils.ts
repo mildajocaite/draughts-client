@@ -38,7 +38,7 @@ export const checkIfBoardIsEmpty = (board: number[][]):boolean => {
     let isEqual = true;
     board.forEach((row, rowIndex) =>{
         row.forEach((type, columnIndex) => {
-            if(type != emptyPosition[rowIndex][columnIndex]){
+            if(type !== emptyPosition[rowIndex][columnIndex]){
                 isEqual = false;
             }
         })

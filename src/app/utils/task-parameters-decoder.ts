@@ -38,8 +38,6 @@ export const getTaskType = (code: string) => {
             return "KILPA";
         case "OPOZICIJA":
             return "OPOZICIJA";
-        case "ZIRKLES":
-            return "ŽIRKLĖS";
         default:
             return "KITA";
     }
