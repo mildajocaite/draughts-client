@@ -1,0 +1,26 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icon-delete {
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .icon-edit {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+}
+
+.create-button {
+  margin: 10px;
+  float: right;
+}
+
+.table-center table td {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+.draughts-table {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  align-items: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+  .red {
+    border: 3px solid darkred;
+    height: 30px;
+  }
+  td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .notation-bottom {
+    font-weight: bold;
+    background-color: #3E88B7;
+    border-bottom: 3px solid black !important;
+  }
+
+  .notation-top {
+    padding-bottom: 15px !important;
+    background-color: #3E88B7;
+  }
+
+  .notation-left {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    font-weight: bold;
+    background-color: #3E88B7;
+  }
+
+  .notation-right {
+    padding-left: 15px !important;
+    font-weight: bold;
+    background-color: #3E88B7;
+  }
+
+}

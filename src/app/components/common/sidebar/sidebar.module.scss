@@ -1,0 +1,24 @@
+.sidebar-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+
+  .logo-text {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+
+  .menu-container {
+    background-color: transparent !important;
+
+    .menu {
+      background: transparent !important;
+    }
+
+    .active-menu {
+      background-color: rgba(128, 128, 128, 0.6) !important;
+      font-weight: bold;
+    }
+  }
+}

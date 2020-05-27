@@ -1,0 +1,98 @@
+.tasks-list {
+  flex-flow: row wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-button {
+  margin: 10px;
+  float: right;
+}
+
+.filter-row {
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: inline;
+}
+
+.loading-icon {
+  display: flex;
+  justify-content: center;
+}
+
+
+.position {
+  padding: 5px;
+}
+
+.delete-button {
+  background-color: darkred;
+  border: 1px solid darkred;
+}
+
+.delete-button:focus {
+  background-color: darkred;
+  border: 1px solid darkred;
+}
+
+.delete-button:hover {
+  background-color: dimgrey;
+  border: 1px solid dimgrey;
+}
+
+.edit-button {
+  border: 1px solid dodgerblue;
+}
+
+.edit-button:hover {
+  background-color: dimgrey;
+  border: 1px solid dimgrey;
+}
+
+.solve-button {
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.solve-button:focus {
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.solve-button:hover {
+  background-color: dimgrey;
+  border: 1px solid dimgrey;
+}
+
+.review-button {
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.review-button:focus {
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.review-button:hover {
+  background-color: dimgrey;
+  border: 1px solid dimgrey;
+}
+
+
+.notStarted {
+  color: darkred;
+  font-weight: bold;
+}
+
+.started {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.solve-again-button {
+  margin-top: 10px;
+}

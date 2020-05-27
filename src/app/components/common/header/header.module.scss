@@ -1,0 +1,26 @@
+.header {
+  background: white;
+  padding: 0;
+
+  .hamburger-menu-icon {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .email-text {
+      margin-right: 10px;
+    }
+
+    .logout-icon {
+      font-size: 20px;
+      margin-right: 30px;
+      margin-top: 20px;
+    }
+  }
+}

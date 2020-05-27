@@ -1,0 +1,20 @@
+.bar-chart-container {
+  flex-flow: row wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.label-date-range {
+  margin-bottom: 10px;
+}
+
+.filter {
+  margin: 10px;
+}
