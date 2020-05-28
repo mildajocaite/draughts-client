@@ -4,7 +4,7 @@
 - serverio programinis kodas „https://github.com/krismilda/draughts-server"
 - „Arduino“ valdiklio programinis kodas „https://github.com/krismilda/iot-draughts-arduino“
 
-Programos paleidimo instrukcijos:
+Programos paleidimo instrukcija:
 - nusikopijuokite repozitoriją;
 - įvykdykite komandą npm install arba yarn install;
 - įvykdykite komandą npm start arba yarn start.
@@ -19,13 +19,13 @@ Norėdami prisijungti kaip mokinys, naudokite šiuos prisijungimo duomenis:
 
 Pagrindinės mokymosi ir mokymo žaisti šaškėmis sistemos funkcijos:
 <ul>
-	<li><b>automatinis šaškių partijų įrašymas.</b> Mokiniams žaidžiant ant jutikliais papildytos šaškių lentos, padaryti ėjimai yra išsaugomi. Treneris ir žaidėjai gali peržiūrėti jau įrašytas partijas ar stebėti jas tiesiogiai žaidžiant. Tiesioginės transliacijos ir jau įrašytų partijų peržiūros pavyzdžiai pateikti žemiau
+	<li><b>automatinis šaškių partijų įrašymas.</b> Mokiniams žaidžiant ant jutikliais papildytos šaškių lentos, padaryti ėjimai yra išsaugomi. Treneris ir žaidėjai gali peržiūrėti jau įrašytas partijas ar stebėti jas tiesioginės transliacijos metu. Tiesioginės transliacijos ir jau įrašytų partijų peržiūros pavyzdžiai pateikti žemiau
 		<p align="center">
 			<img src="https://github.com/krismilda/draughts-system-pictures/blob/master/tiesiogines_transliacijos.gif" height="280" />
       <img src="https://github.com/krismilda/draughts-system-pictures/blob/master/partiju_perziura.gif" height="280"/> 
 		</div>
 	</li>
-	<li><b>uždavinių sukūrimas.</b> Treneris gali pridėti į sistemą uždavinius, kurie yra matomi visiems mokiniams, o mokiniai gali juos spręsti. Treneriui nebereikia kiekvienam mokiniui atskirai spausdinti uždavinių
+	<li><b>uždavinių sukūrimas.</b> Treneris gali pridėti į sistemą uždavinius, kurie yra matomi visiems mokiniams, o mokiniai gali juos spręsti. Treneriui nebereikia kiekvienam mokiniui atskirai uždavinių spausdinti
 		<p align="center">
 			<img src="https://github.com/krismilda/draughts-system-pictures/blob/master/uzdavinio_sukurimas.gif" height="400" />
 		</p>
